@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Questãp 1</title>
+</head>
+<body>
+  
+<script>
+let nome = prompt('Qual é seu nome')
+alert('Pracer em conhecelo(a) ' +nome)
+
+let nota= parseFloat(prompt('Qual foi a sua nota np Tr1 '))
+alert('Tr1 '+nota)
+
+let nota2 = parseFloat(prompt('Sua nota do Tr2'))
+alert(' Tr2 '+nota2)
+
+let suasnotas =  parseFloat(nota+nota2)
+alert(''+ suasnotas/2)
+
+
+
+let media = 6
+
+
+if( (nota+nota2)/2 >= media){
+
+  alert('você foi aprovado')
+  } else {
+    alert('Você foi para o exame')
+    
+    let exame = parseFloat(prompt('Nota do exame'))
+    let notafinal = ((media+exame) /2)
+
+    console.log(notafinal);
+
+
+    if (notafinal >=6)  {
+      alert('Aprovado')
+      alert('Sua nota do exame '+notafinal)
+    } else {
+      alert('Reprovado')
+      alert= ('Game over')
+    }
+  
+    
+  } 
+
+
+  
+  
+  
+
+
+
+
+
+
+
+
+</script>
+
+</body>
+</html>
+
+
+
